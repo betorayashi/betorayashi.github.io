@@ -16,8 +16,6 @@ body {
 }
 
 .action-button {
-  display: flex;
-  flex-direction: column;
   margin: 20px 10px 20px 10px;
   border: none;
   padding: 10px 30px;
@@ -61,8 +59,8 @@ input {
 
 .mc-field-group {
   display: flex;
-  margin: 10px;
   flex-direction: column;
+  margin: 10px;
 }
 
 #mc_embed_signup {
@@ -94,7 +92,7 @@ input {
 }
 
 .right-side {
-  width: 400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -148,8 +146,18 @@ ul > li {
 @media (max-width: 800px) {
   .top,
   .bottom {
-    width: 400px;
+    padding: 20px;
+    width: 350px;
     flex-direction: column;
     align-items: center;
+  }
+  .top {
+    border-top-right-radius: 20px;
+  }
+  .bottom {
+    border-bottom-left-radius: 20px;
+  }
+  .avatar {
+    margin: 10px;
   }
 }
