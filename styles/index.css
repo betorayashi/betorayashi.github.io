@@ -144,7 +144,7 @@ ul > li {
 @media (max-width: 800px) {
   .top,
   .bottom {
-    padding: 20px;
+    padding: 10px;
     width: 350px;
     flex-direction: column;
     align-items: center;
@@ -155,6 +155,7 @@ ul > li {
   .bottom {
     margin-top: 10px;
     border-radius: 10px;
+    padding-bottom: 30px;
   }
   .avatar {
     margin: 10px;
