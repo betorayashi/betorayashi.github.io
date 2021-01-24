@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/index.css">
+    <script async src="js/index.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-80PV1Q2SVL"></script>
@@ -58,11 +59,11 @@
             <div id="mc_embed_signup_scroll">
             <div class="mc-field-group">
               <label for="mce-EMAIL">Email </label>
-              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              <input id="email" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
             </div>
             <div class="mc-field-group">
               <label for="mce-FNAME">Nome </label>
-              <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+              <input id="name" type="text" value="" name="FNAME" class="required" id="mce-FNAME">
             </div>
             <div id="mce-responses" class="clear">
               <div class="response" id="mce-error-response" style="display:none"></div>
@@ -72,7 +73,13 @@
               <input type="text" name="b_c5234d94167049a6275b9cbcc_114c028c9a" tabindex="-1" value="">
             </div>
             <div class="clear">
-              <input class="action-button animate green" type="submit" value="Baixar Ebook Grátis" name="subscribe" id="mc-embedded-subscribe" class="button">
+              <input 
+                id="sub-button" 
+                class="action-button animate green" 
+                type="submit" 
+                value="Baixar Ebook Grátis" 
+                name="subscribe" 
+                id="mc-embedded-subscribe" class="button">
             </div>
           </div>
           </form>

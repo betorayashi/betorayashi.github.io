@@ -87,8 +87,7 @@ input {
   backdrop-filter: blur(4px);
   display: flex;
   padding: 20px;
-  border-top-right-radius: 50px;
-  background-color: rgba(13, 21, 59, 0.692);
+  background-color: rgba(0, 0, 0, 0.692);
 }
 
 .right-side {
@@ -105,10 +104,9 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(13, 21, 59, 0.692);
+  background-color: rgba(0, 4, 36, 0.692);
   margin-bottom: 20px;
   backdrop-filter: blur(4px);
-  border-bottom-left-radius: 50px;
 }
 
 .item-icon {
@@ -156,16 +154,12 @@ ul > li {
   .top,
   .bottom {
     padding: 10px;
-    width: 350px;
+    width: 400px;
     flex-direction: column;
     align-items: center;
   }
-  .top {
-    border-radius: 10px;
-  }
   .bottom {
     margin-top: 10px;
-    border-radius: 10px;
     padding-bottom: 30px;
   }
   .avatar {
